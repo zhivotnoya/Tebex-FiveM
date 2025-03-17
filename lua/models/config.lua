@@ -9,7 +9,7 @@ function TebexConfig:init()
             buyEnabled = false,
             secret = "",
             buyCommand = "!donate",
-            baseUrl = "https://plugin.tebex.io"
+            baseUrl = "https://controlledchaos.tebex.io"
         }
     }
 
