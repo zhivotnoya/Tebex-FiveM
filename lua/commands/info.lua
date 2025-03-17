@@ -1,6 +1,5 @@
 print( "// Command tebex info        //" )
 
-
 Tebex.commands["info"] = function(ply, args)
     apiclient = TebexApiClient:init(config:get("baseUrl"), config:get("secret"))
     apiclient:get("/information", function(response)
